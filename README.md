@@ -10,7 +10,7 @@
   
 * File structure
 
-#Project Overview
+### Project Overview
 
 1 Purpose of the project
 
@@ -26,7 +26,7 @@ In order to pass the review, the landing page needs to have the following functi
 * Section Active State function in order to make clear which section is being currently viewed;
 * Scroll to Anchor functionality in order to have the page scroll to the appropriate section when a menu link is clicked
 
-#File structure
+### File structure
 
 The file is structured as follows:
 
