@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-* [Project Overview] (#project-overview)
+* Project Overview
 
   1 Purpose of the project
   
   2 Project functionalities
   
-* File structure (#File structure)
+* File structure
 
 #Project Overview
 
