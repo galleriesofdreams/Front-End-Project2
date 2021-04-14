@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* Project Overview (#Project Overview)
+* [Project Overview] (#project-overview)
 
   1 Purpose of the project
   
