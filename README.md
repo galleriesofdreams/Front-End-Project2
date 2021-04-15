@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-* Project Overview (#Project Overview)
+* Project Overview
     1 Purpose of the project
     2 Project functionalities
-* File structure (#File structure)
+* File structure
 
-###Project Overview
+### Project Overview
 
     1 Purpose of the project
 
@@ -23,7 +23,7 @@
             * Section Active State function in order to make clear which section is being currently viewed;
             * Scroll to Anchor functionality in order to have the page scroll to the appropriate section when a menu link is clicked
 
-###File structure
+### File structure
 
     The file is structured as follows:
 
