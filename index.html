@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Pizzeria Verona</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1">
+      <div class="landing__container">
+        <h2>Pizza Section 1</h2>
+        <p>Pizza ipsum dolor amet lasagna ricotta red onions, philly chicken peppers stuffed parmesan extra sauce. Green bell peppers pan mushrooms personal marinara bianca. Buffalo sauce pesto bbq rib meat lovers, pork pineapple fresh tomatoes black olives sausage. Mushrooms philly chicken meatball philly steak, black olives bbq rib chicken wing NY style extra sauce pesto garlic ham pizza deep crust.</p>
+
+        <p>Pesto green bell peppers Chicago style NY style marinara party. Bianca chicken peppers philly chicken large philly steak. Beef personal green bell peppers pineapple thin crust NY style broccoli stuffed. Peppers pepperoni pizza roll bacon & tomato meatball NY style buffalo sauce chicken. Meat lovers anchovies banana peppers sausage platter ham mozzarella ricotta.</p>
+      </div>
+						<img src="media/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg" alt="pizzaman">
+    </section>
+    <section id="section2" data-nav="Section 2">
+					<img src="media/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg" alt="pizza2">
+      <div class="landing__container">
+        <h2>Pizza Section 2</h2>
+        <p>Pizza roll red onions sauteed onions, ranch hand tossed onions meatball sausage mayo fresh tomatoes stuffed crust. Large bbq sauce garlic sauce, stuffed chicken personal peppers party thin crust burnt mouth Chicago style ham pesto. Mushrooms sausage beef extra cheese chicken and bacon bbq chicken wing hawaiian sausage anchovies hand tossed pizza roll thin crust garlic sauce. Chicken wing buffalo sauce extra sauce black olives, mushrooms chicken pizza lasagna pie mozzarella parmesan extra cheese mayo bacon & tomato bacon. Stuffed crust marinara philly steak melted cheese, garlic sauce mayo green bell peppers anchovies meatball garlic parmesan peppers buffalo sauce chicken party white pizza. White pizza string cheese beef banana peppers, ranch green bell peppers marinara.</p>
+
+        <p>Pork marinara fresh tomatoes, ham sausage parmesan stuffed crust. Bacon & tomato platter personal sausage, bianca pork onions bacon parmesan. Pizza bacon & tomato pepperoni mozzarella thin crust. Steak pan garlic mushrooms mayo extra cheese pineapple white pizza extra sauce hawaiian chicken and bacon garlic sauce red onions. Ham ricotta philly chicken, fresh tomatoes mayo buffalo sauce NY style sausage hawaiian deep crust chicken wing pineapple.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>Pizza Section 3</h2>
+        <p>Pizza ipsum dolor amet chicken wing meatball pesto pizza roll, lasagna philly chicken chicken pork green bell peppers garlic sauce. Stuffed sausage pizza roll lasagna bbq rib chicken wing. Garlic parmesan anchovies mushrooms pizza, peppers pepperoni broccoli chicken and bacon ham. Thin crust ricotta sausage, bbq rib chicken wing white pizza string cheese chicken and bacon parmesan personal burnt mouth. Pizza Chicago style personal hawaiian white pizza party string cheese philly steak ricotta chicken wing white garlic. Extra cheese NY style platter, lasagna hand tossed pizza thin crust black olives sausage philly chicken pepperoni.</p>
+
+        <p>Chicken sausage parmesan, pizza sausage bbq ranch peppers. Pepperoni buffalo sauce pesto, steak garlic anchovies thin crust mozzarella burnt mouth bbq. Hawaiian pepperoni stuffed crust meatball bbq meatball pan anchovies parmesan. Chicken wing pepperoni beef parmesan marinara ham thin crust hawaiian burnt mouth large anchovies melted cheese extra sauce.</p>
+      </div>
+						<img src="media/likemeat-CbNAuxSZTFo-unsplash.jpg" alt="pizza3">
+    </section>
+    <section id="section4" data-nav="Section 4">
+					<img src="media/carissa-gan-_0JpjeqtSyg-unsplash.jpg" alt="pizza4">
+      <div class="landing__container">
+        <h2>Pizza Section 4</h2>
+        <p>NY style sausage platter, ranch extra cheese deep crust ricotta pesto hawaiian chicken and bacon meatball pizza fresh tomatoes garlic sauce. Mozzarella mayo spinach philly chicken pizza bbq sauce anchovies sausage lasagna pie extra sauce garlic chicken green bell peppers white pizza. Deep crust bacon & tomato broccoli stuffed crust bbq rib chicken wing mozzarella bbq sauce beef sausage white pizza chicken sauteed onions. Chicken extra sauce garlic banana peppers meatball party melted cheese ham. Platter pork beef red onions.</p>
+
+        <p>Pork onions peppers lasagna large. Green bell peppers spinach thin crust hand tossed. Black olives garlic broccoli Chicago style, stuffed crust pepperoni garlic parmesan mushrooms pork deep crust. Black olives green bell peppers mayo, ham Chicago style bianca philly chicken hand tossed extra sauce bacon chicken and bacon burnt mouth. Garlic parmesan philly chicken mozzarella parmesan, mushrooms pepperoni chicken bianca personal. Parmesan green bell peppers pineapple onions.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy Udacity & Patrizia Rohr</p>
+    <button onclick="scrollToTop()" id="scrollToTopButton" title="Go to Top">Top</button>
+    <script src="./js/app.js"></script>
+  </footer>
+
+</body>
+</html>
