@@ -11,7 +11,7 @@
 
     1 Purpose of the project
 
-        The purpose of this project is to put in practice the content learned during the "Javascript and the DOM" section of the Front-end developer Nanodegree by [Udacity](www.udacity.com).
+        The purpose of this project is to put in practice the content learned during the "Javascript and the DOM" section of the Front-end developer Nanodegree by [Udacity](https://www.udacity.com/).
 
         The project helps combining together all the notions that were learned during the course in a single landing page.
 
@@ -31,8 +31,9 @@
         * [styles.css](.\landing-page\css\styles.css)
         * [js/](.\landing-page\js)
         * [app.js](.\landing-page\js\app.js)
-        * [index.html](.\landing-page\index.html)
+        * [index.html](index.html)
         * [README.md](.\landing-page\README.md)
+        * [media/](.landing-page\media)
 
 
 
