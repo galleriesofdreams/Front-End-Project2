@@ -3,8 +3,11 @@
 ## Table of Contents
 
 * Project Overview
+
 1 Purpose of the project
+
 2 Project functionalities
+
 * File structure
 
 ### Project Overview
@@ -34,9 +37,3 @@ The file is structured as follows:
 * [index.html](index.html)
 * [README.md](.\landing-page\README.md)
 * [media/](.landing-page\media)
-
-
-
-
-
-
