@@ -12,13 +12,13 @@
 
 ### Project-Overview
 
-1 Purpose of the project
+    1 Purpose of the project
 
 The purpose of this project is to put in practice the content learned during the "Javascript and the DOM" section of the Front-end developer Nanodegree by [Udacity](https://www.udacity.com/).
 
 The project helps combining together all the notions that were learned during the course in a single landing page.
 
-2 Project functionalities
+    2 Project functionalities
 
 In order to pass the review, the landing page needs to have the following functionalities added:
 
