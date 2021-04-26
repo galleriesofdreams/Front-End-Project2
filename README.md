@@ -31,9 +31,9 @@ In order to pass the review, the landing page needs to have the following functi
 The file is structured as follows:
 
 * [css/](.\landing-page\css)
-* [styles.css](.\landing-page\css\styles.css)
+  * [styles.css](.\landing-page\css\styles.css)
 * [js/](.\landing-page\js)
-* [app.js](.\landing-page\js\app.js)
+  * [app.js](.\landing-page\js\app.js)
 * [index.html](index.html)
 * [README.md](.\landing-page\README.md)
 * [media/](.landing-page\media)
