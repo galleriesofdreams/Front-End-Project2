@@ -4,9 +4,9 @@
 
 * Project Overview
 
-1 Purpose of the project
+  1 Purpose of the project
 
-2 Project functionalities
+  2 Project functionalities
 
 * File structure
 
